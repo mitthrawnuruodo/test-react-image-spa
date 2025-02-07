@@ -1,8 +1,6 @@
-// import React from "react";
 import Hero from "../components/Hero";
-import ImageGallery from "../components/ImageGallery";
 import heroImage from "../assets/hero.jpg"; // Import the hero image
-
+import ImageGallery from "../components/ImageGallery";
 
 const Home = () => {
   return (

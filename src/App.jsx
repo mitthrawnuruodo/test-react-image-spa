@@ -1,4 +1,3 @@
-//import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import AmiiboList from "./pages/AmiiboList";

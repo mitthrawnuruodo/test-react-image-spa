@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       <div className="nav-container">
         <Link to="/" className="logo">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="test" />
         </Link>
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
