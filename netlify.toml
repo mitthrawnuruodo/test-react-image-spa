@@ -1,0 +1,18 @@
+# netlify.toml
+
+[build]
+  # Directory to change into before starting build (optional)
+  # base = "/subfolder"
+  publish = "dist"
+  command = "npm run build"
+
+[dev]
+  # Settings for netlify dev (local)
+  port = 8888
+  autoLaunch = false
+
+# Redirect all routes to index.html (SPA support)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
