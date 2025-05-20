@@ -1,8 +1,6 @@
 # netlify.toml
 
 [build]
-  # Directory to change into before starting build (optional)
-  # base = "/subfolder"
   publish = "dist"
   command = "npm run build"
 
